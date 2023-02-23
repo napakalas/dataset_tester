@@ -1,0 +1,23 @@
+{
+    "id": "whole-rat",
+    "models": "NCBITaxon:10114",
+    "description": "description.json",
+    "anatomicalMap": "anatomical_map.xlsx",
+    "properties": "rat_flatmap_properties.json",
+    "connectivity": [
+        "keast_bladder.json",
+        "rat_connectivity.json"
+    ],
+    "sources": [
+        {
+            "id": "whole-rat",
+            "href": "whole-rat.svg",
+            "kind": "base"
+        },
+        {
+            "id": "tissue-slide",
+            "href": "tissue-slide.svg",
+            "kind": "details"
+        }
+    ]
+}
